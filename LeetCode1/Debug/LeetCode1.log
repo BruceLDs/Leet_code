@@ -1,14 +1,13 @@
-﻿生成启动时间为 2019/10/23 18:14:53。
-     1>项目“D:\C++\LeetCode1\LeetCode1.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/12/15 21:04:21。
+     1>项目“D:\git资源\Leet_code\LeetCode1\LeetCode1.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files (x86)\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
          test.cpp
        Link:
-         D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++\LeetCode1\Debug\LeetCode1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C++\LeetCode1\Debug\LeetCode1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++\LeetCode1\Debug\LeetCode1.lib" /MACHINE:X86 Debug\test.obj
-         LINK : 没有找到 D:\C++\LeetCode1\Debug\LeetCode1.exe 或上一个增量链接没有生成它；正在执行完全链接
-         LeetCode1.vcxproj -> D:\C++\LeetCode1\Debug\LeetCode1.exe
-     1>已完成生成项目“D:\C++\LeetCode1\LeetCode1.vcxproj”(Build 个目标)的操作。
+         D:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git资源\Leet_code\LeetCode1\Debug\LeetCode1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\git资源\Leet_code\LeetCode1\Debug\LeetCode1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git资源\Leet_code\LeetCode1\Debug\LeetCode1.lib" /MACHINE:X86 Debug\test.obj
+         LeetCode1.vcxproj -> D:\git资源\Leet_code\LeetCode1\Debug\LeetCode1.exe
+     1>已完成生成项目“D:\git资源\Leet_code\LeetCode1\LeetCode1.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.77
+已用时间 00:00:02.10
