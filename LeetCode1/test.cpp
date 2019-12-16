@@ -35,32 +35,50 @@ int main(){
 	return 0;
 }
 #endif
-//当返回值时
+////当返回值时
 #include<iostream>
 #include<vector>
-#include<algorithm>
+//#include<algorithm>
 using namespace std;
+//class Solution {
+//public:
+//	vector<int> twoSum(vector<int>& nums, int target) {
+//		vector<int> a;
+//		a.resize(2, -1);
+//		int* f = &nums[0];
+//		int* l = &nums[nums.size() - 1];
+//		sort(f, l);
+//		int left = 0;
+//		int right = nums.size() - 1;
+//		while (left < right){
+//			int temp = nums[left] + nums[right];
+//			if (temp == target){
+//				a[0] = nums[left];
+//				a[1] = nums[right];
+//				return a;
+//			}
+//			if ( temp < target)
+//				left++;
+//			if(temp > target)
+//				right--;
+//		}
+//		return a;
+//	}
+//};
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
 		vector<int> a;
-		a.resize(2, -1);
-		int* f = &nums[0];
-		int* l = &nums[nums.size() - 1];
-		sort(f, l);
-		int left = 0;
-		int right = nums.size() - 1;
-		while (left < right){
-			int temp = nums[left] + nums[right];
-			if (temp == target){
-				a[0] = nums[left];
-				a[1] = nums[right];
-				return a;
+		a.resize(2);
+		for (int i = 0; i < nums.size() - 1; i++){
+			for (int j = i + 1; j < nums.size(); j++){
+				int temp = nums[i] + nums[j];
+				if (temp == target){
+					a[0] = i;
+					a[1] = j;
+					return a;
+				}
 			}
-			if ( temp < target)
-				left++;
-			if(temp > target)
-				right--;
 		}
 		return a;
 	}
